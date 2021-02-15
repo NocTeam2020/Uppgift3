@@ -1,0 +1,22 @@
+.ulWrapper {
+	list-style-type: none;
+}
+
+.li {
+	display: inline;
+	cursor: pointer;
+	color: white;
+	font-weight: 1000;
+	font-family: 'Roboto', sans-serif;
+	padding: 6%;
+	margin-left: 10px;
+	transition: 0.2s;
+	 background-color: #333;
+}
+
+.li:hover {
+	font-size: 1.1rem;
+	transition: 0.3s;
+	
+	border-radius: 50%;
+}

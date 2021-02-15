@@ -1,0 +1,28 @@
+.NavigationWrapper {
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	background-color: black;
+	border-bottom: 3px solid #73AD21;
+}
+
+.navigationLogo {
+	width: 90px;
+	grid-column: 3/4;
+	padding: 2%;
+}
+
+.signInButton,
+.profile {
+	grid-column: 15/16;
+	cursor: pointer;
+	color: white;
+	font-weight: 1000;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	padding: 6%;
+}
+
+.NavigationTabs {
+	grid-column: 7/9;
+	align-items: center;
+}
