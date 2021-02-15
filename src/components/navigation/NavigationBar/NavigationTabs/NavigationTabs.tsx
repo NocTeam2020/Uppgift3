@@ -9,6 +9,8 @@ export const NavigationTabs = () => {
 		<ul className='ulWrapper'>
 			<li className='li' onClick={() => history.push(RoutingPath.homeView)}>Hem</li>
 			<li className='li' onClick={() => history.push(RoutingPath.newsView)}>Nyheter</li>
+			<li className='li' onClick={() => history.push(RoutingPath.pokemon)}>Pokemon</li>
+			<li className='li' onClick={() => history.push(RoutingPath.starwars)}>StarWars</li>
 		</ul>
 	)
 }

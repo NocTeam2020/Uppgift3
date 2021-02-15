@@ -1,6 +1,7 @@
 const homeView = '/'
 const LoginView = '/signin'
-
+const pokemon = '/pokemon'
+const starwars ='/starwars'
 const newsView = '/news'
 
 
@@ -8,6 +9,7 @@ const newsView = '/news'
 export default {
 	homeView,
 	LoginView,
-	newsView,
-
+	pokemon,
+	starwars,
+	newsView
 }
