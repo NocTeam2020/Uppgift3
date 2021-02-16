@@ -26,7 +26,6 @@ export const Routes = (props: { children: React.ReactChild }) => {
 				<Route exact path={RoutingPath.newsView} component={NewsView} />
 				<Route exact path={RoutingPath.pokemon} component={PokemonView} />
 				<Route exact path={RoutingPath.starwars} component={StarWarsView} />
-
 				<Route component={HomeView} />
 			</Switch>
 			<Footer />

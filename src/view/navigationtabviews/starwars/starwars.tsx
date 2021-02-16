@@ -3,18 +3,15 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import starwarsApiService from '../../../shared/api/starwars-api-service/starwars-api-service'
 
-
 export const StarWarsView = () => {
     const [starwarsData, setStartData] = useState<any>()
     const [count, setCount] = useState(1)
 
     const makeSureCountWillNeverGoBelowValue1 = () => {
         (count <= 1) ? setCount(1) : setCount(count - 1)
-
     }
 
     const getDataFromStarWarsAPI = async () => {
-
         try {
             const response = await starwarsApiService.getStarWarsCharacter(count)
             setStartData(response)
